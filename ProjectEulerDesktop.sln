@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectEulerDesktop", "ProjectEulerDesktop.csproj", "{C809B014-E8B1-49A2-9929-8ED56AB88294}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{704F81F5-BF7A-4F86-BB44-A93E7AF97286}"
+	ProjectSection(SolutionItems) = preProject
+		Problem1.cs = Problem1.cs
+		Problem2.cs = Problem2.cs
+		Problem3.cs = Problem3.cs
+		Problem4.cs = Problem4.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C809B014-E8B1-49A2-9929-8ED56AB88294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C809B014-E8B1-49A2-9929-8ED56AB88294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C809B014-E8B1-49A2-9929-8ED56AB88294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C809B014-E8B1-49A2-9929-8ED56AB88294}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE4EDB7A-EDFE-4192-A1C5-85329F04E41F}
+	EndGlobalSection
+EndGlobal
