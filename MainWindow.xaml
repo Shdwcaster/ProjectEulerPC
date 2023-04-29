@@ -12,7 +12,8 @@
 			<ListBoxItem Content="Problem 2 - Even Fibonacci Numbers"/>
 			<ListBoxItem Content="Problem 3 - Largest Prime Factor"/>
 			<ListBoxItem Content="Problem 4 - Max 6-digit Palindrome"/>
-		</ComboBox>
+            <ListBoxItem Content="Problem 5 - Smallest Multiple"/>
+        </ComboBox>
 		<Label x:Name="lblEulerProblems" Content="Euler Problems" HorizontalAlignment="Left" Margin="201,23,0,0" VerticalAlignment="Top" Width="199"/>
 		<Button x:Name="btnShowSolution" Content="Show Solution" HorizontalAlignment="Left" Margin="313,0,0,0" VerticalAlignment="Center" IsDefault="True" Width="87" Click="btnShowSolution_Click"/>
 		<Label x:Name="lblSolution" Content="Problem # - Solution" HorizontalAlignment="Left" Margin="240,135,0,0" VerticalAlignment="Top" Height="29" Width="205"/>

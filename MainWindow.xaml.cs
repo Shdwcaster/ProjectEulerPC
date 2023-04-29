@@ -30,5 +30,6 @@ namespace ProjectEulerDesktop
 			BaseEulerProblem solutionBase = new BaseEulerProblem((cbxEulerProblems.SelectedIndex + 1), long.Parse(txtbxProblemValue.Text));
 			lblSolution.Content = solutionBase.ReturnResult();
         }
+
     }
 }

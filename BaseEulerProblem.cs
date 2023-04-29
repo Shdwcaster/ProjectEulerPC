@@ -33,7 +33,11 @@ namespace ProjectEulerDesktop
 					Problem4 problem4Solution = new Problem4();
 					result = string.Concat("Problem 4 - ", problem4Solution.LargestSixDigitPalindrome(stopNumber));
 					break;
-
+				case 5:
+					Problem5 problem5Solution = new Problem5();
+					int stopNumberInt = (int)stopNumber;
+					result = string.Concat("Problem 5 - ", problem5Solution.SmallestPositiveNumberEvenlyDivisible(stopNumberInt));
+					break;
 				default:
 					result = "No solution found for that number.";
 					break;
